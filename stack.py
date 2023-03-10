@@ -1,4 +1,4 @@
-#stack implement by linked list
+#stack implement by linked list  (array is easy to implement)
 
 #empty, push, pop
 class Node:
