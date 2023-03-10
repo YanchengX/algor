@@ -1,0 +1,14 @@
+stack ->
+basic method
+    create()
+    push()
+    pop()
+    epmty()
+    full()
+
+queue ->
+basic method
+stack can implement by linkedlist and array (list in python)
+
+apply -> maze problem
+
