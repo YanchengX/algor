@@ -27,7 +27,7 @@ class Apllicaitonlist:
         else:
             raise ValueError
 
-    def deletenode(self,value):
+    def deletenode(self, value):
         
         if self.root == value:
             self.root = self.root.next
@@ -73,7 +73,7 @@ class Apllicaitonlist:
             return prev
         nex = cur.next
         cur.next = prev
-        return self.reverse(nex,cur)
+        return self.reverse(nex, cur)
 
     def printlist(self):
         if self.isCycle():
@@ -91,7 +91,7 @@ class Apllicaitonlist:
             # print('{} is prefix of cyclelist'.format(slow.data))
             
             
-            #find started node using map    TO n*logn SO n
+            #find started node using  hash map    TO n*logn SO n
             visit = {}
             node = self.root
 

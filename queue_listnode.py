@@ -1,9 +1,5 @@
-#implement queue using array, linked-list, list pythonic
-#enqueue, dequeue, size, show
-
 
 # linked-list
-
 class Node:
     def __init__(self, value):
         self.val = value
